@@ -1,0 +1,29 @@
+html {background-color: Chartreuse}
+
+p {color: red;
+position: relative;
+top:10px;
+left:20px;}
+
+ul,ol {color: blue;}
+
+h2 {color: brown;
+font-size: 15px;}
+
+h1 {font-size: 20px;
+font-family: sans-serif;
+text-transform: uppercase;
+position: absolute;
+
+top: 10px;
+right: 650px;
+
+position: fixed;}
+
+div p { background-color: yellow
+}
+
+img {background-color: purple;
+  margin: 20px 10% 20px 10%;
+border: black 3px dotted;
+padding: 10px 20% 10px 20%;}
