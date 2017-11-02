@@ -1,0 +1,14 @@
+.box, .box1 {
+  margin: 20px 30% 20px 10%;
+border: black 3px dotted;
+padding: 10px 30% 10px 50%;
+color: red;
+position: relative;
+top:10px;
+left:20px;
+
+}
+
+.box, .box1 {
+  background-color: green
+}
