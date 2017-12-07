@@ -1,0 +1,121 @@
+html {background-color: #efeff4}
+
+p {
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+  }
+
+h1 {
+	position:relative;
+	font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+	font-size:50px;
+	text-transform:uppercase;
+	text-align:center;
+	height:80px;
+	padding-top:0px;
+}
+
+div {
+	position:relative;
+	font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+	top:10px;
+	font-size:14px;
+	text-align:center;
+	}
+
+	#par {
+	  	position:relative;
+	    font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+			font-style: italic;
+	  	top:-755px;
+	  	font-size:22px;
+	  	text-align:center;
+			margin-right: 60px;
+
+	  	}
+
+#words {
+		position:relative;
+		font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+		top:10px;
+		font-size:14px;
+		text-align:left;
+		margin-left: 130px;
+
+	  }
+
+#pic {
+  	position:relative;
+    font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+		font-style: italic;
+  	top:-465px;
+  	font-size:22px;
+  	text-align:right;
+		margin-right: 90px;
+  	}
+
+
+#plz {position:relative;
+font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+font-style: italic;
+top:0px;
+font-size:22px;
+text-align:left;}
+
+	h2 {
+
+  	border-top:3px solid #CCC;
+  	border-bottom:3px solid #CCC;
+  	padding:22px 0;
+		height: 480px;
+}
+
+  h3 {
+	font-family:BrandonGrotesque-Bold, Futura, Verdana, serif;
+	font-size:18px;
+  text-align:center;
+  text-transform:uppercase;
+	margin:0;
+	padding:0;
+  word-spacing: 30px;
+}
+
+ul {
+	display: inline;
+	list-style: none;
+}
+#nav li {
+	float:left;
+	width:250px;
+	height:100px;
+	margin-top:50px;
+	margin-right:100px;
+}
+
+marquee{
+	width: 350px;
+	}
+
+#nav h3 {margin-bottom:0; height:26px;
+         padding-left: 325px;
+}
+#nav p {margin-top:10px;
+        padding-left: 350px;
+}
+.footer {
+	width:1000px;
+	float:left;
+	text-align:center;
+  padding-left: 300px;
+	margin-top:60px;
+	margin-bottom:20px;
+}
+.footer small {
+	font-size:12px;
+	font-family:"Lucida Grande";
+	color:##86868c;
+}
+
+#txt{text-align: center;
+}

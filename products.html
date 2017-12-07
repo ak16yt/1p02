@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<!--The head contains all of the confirguration items for our page-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>This is some awesome text</title>
+		<link href="items.css" type="text/css" rel="stylesheet" />
+
+		<script type="text/javascript">
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		var s = today.getSeconds();
+		m = checkTime(m);
+		s = checkTime(s);
+		document.getElementById('txt').innerHTML =
+		h + ":" + m + ":" + s;
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		return i;
+	}
+	</script>
+
+
+	</head>
+
+	<body onload="startTime()">
+
+	<div id="txt"></div>
+
+
+		<!--The body contains all of the content for our page-->
+
+		<p> <img src="gallery/starpic.jpeg" alt="A Star" /> </p>
+
+
+<h1><marquee>brighten up</marquee></h1>
+	<h2>
+	 <div id="plz">
+		<img src="gallery/pg.jpeg" alt="Future Glass One" width="400" height="290" />
+		<div>Today’s most striking designs have one thing in common: Glass. Glass interacts with light and color in ways that produce unique, astounding effects. More and more, designers are embracing glass for its beauty, clean lines, and versatility. Glass provides more than a sleek, tough cover for surfaces. It’s also the perfect substrate for high-tech coatings that react to light and sound or support high-tech sensors and semiconductors. Glass is such a unique material can help make even an ordinary object glow in the dark. That’s why architects and designers are redefining what to expect from our everyday surroundings — and they’re turning to Brighten Up for the glass that can help make it all possible. Brighten Up creates architectural and design glass solutions that are both practical and beautiful. As an architectural glass, Brighten Up® Willow® Glass, for example, can curve around pillars or provide a glistening laminate for ordinary building materials. Brighten Up® Fibrance® Light-Diffusing Fiber can outline a runner’s headphones with a colorful strand of light, or line a hospital room floor with a gentle glow to guide you along. Brighten Up® Gorilla® Glass, already a standard in the consumer electronics industry, can line the walls of an elevator cab or create a seamless “smart wall” to interact with guests in a lobby setting or department store. These are just a few of our innovations that are inspiring designers in diverse industries. With our expertise in research, materials, and processing, we can provide many options to our architecture and design customers for every phase of their projects. Brighten Up continues to offer advantaged materials in this space, and as display technologies advance, our capabilities are expanding to meet their evolving requirements.
+		</div>
+	</div>
+
+
+	<div id="pic">
+		<img src="gallery/adg.jpeg" alt="Future Glass Two" width="400" height="290"></img>
+	</div>
+
+<div id="par">
+	<img src="gallery/avg.jpeg" alt="Future Glass One" width="400" height="290" />
+</div>
+
+
+
+
+</h2>
+	<div id="nav">
+			<ul>
+				<li>
+					<h3><a href="file:///C:/Users/athar/Documents/about.html"style="color: black; text-decoration: none;">About</a></h3>
+
+				</li>
+				<li>
+					<h3><a href="file:///C:/Users/athar/Documents/products.html"style="color: black; text-decoration: none;">Products</a></h3>
+
+				</li>
+				<li>
+					<h3><a href="file:///C:/Users/athar/Documents/social.html"style="color: black; text-decoration: none;">Media</a></h3>
+
+				</li>
+
+			</ul>
+		</div>
+		<div class="footer" id="topfooter">
+			<small>&copy; 2017 BU 729 Canterbury St. Port Lake, ON B3E-3W8 Canada.</small>
+			<small>Phone (316) 328 985</small>
+		</div>
+
+
+	</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<!--The head contains all of the confirguration items for our page-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>This is some awesome text</title>
+		<link href="finalwebsite.css" type="text/css" rel="stylesheet" />
+
+		<script type="text/javascript">
+				setTimeout("document.bgColor='#efeff4'", 1000)
+				setTimeout("document.bgColor='grey'", 1500)
+				setTimeout("document.bgColor = '#efeff4'", 2000)
+				setTimeout("document.bgColor =  'grey'", 2500)
+				setTimeout("document.bgColor = '#efeff4'", 3000)
+				setTimeout("document.bgColor = 'grey'", 3500)
+				setTimeout("document.bgColor = '#efeff4'", 4500)
+				</script>
+
+<script language="javascript" type="text/javascript">alert("Welcome to Brighten Up")</script>
+
+<script type="text/javascript">
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+
+	</head>
+
+	<body onload="startTime()">
+
+	<div id="txt"></div>
+
+		<!--The body contains all of the content for our page-->
+
+		<p><img src="gallery/starpic.jpeg" alt="A Star" /></p>
+
+
+
+<h1><marquee>brighten up</marquee></h1>
+
+
+	<h2>FRAMING THE TECHNOLOGY OF TOMORROW</h2>
+	<div id="nav">
+			<ul>
+				<li>
+					<h3><a href="file:///C:/Users/athar/Documents/about.html"style="color: black; text-decoration: none;">About</a></h3>
+				</li>
+				<li>
+					<h3><a href="file:///C:/Users/athar/Documents/products.html"style="color: black; text-decoration: none;">Products</a></h3>
+
+				</li>
+				<li>
+					<h3><a href="file:///C:/Users/athar/Documents/social.html"style="color: black; text-decoration: none;">Media</a></h3>
+
+				</li>
+
+			</ul>
+		</div>
+		<div class="footer" id="topfooter">
+			<small>&copy; 2017 BU 729 Canterbury St. Port Lake, ON B3E-3W8 Canada.</small>
+			<small>Phone (316) 328 985</small>
+		</div>
+
+
+	</body>
+
+</html>

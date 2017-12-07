@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<!--The head contains all of the confirguration items for our page-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>This is some awesome text</title>
+		<link href="people.css" type="text/css" rel="stylesheet" />
+
+		<script type="text/javascript">
+
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		var s = today.getSeconds();
+		m = checkTime(m);
+		s = checkTime(s);
+		document.getElementById('txt').innerHTML =
+		h + ":" + m + ":" + s;
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		return i;
+	}
+	</script>
+
+
+	</head>
+
+	<body onload="startTime()">
+
+	<div id="txt"></div>
+
+
+
+		<!--The body contains all of the content for our page-->
+
+    <p> <img src="gallery/starpic.jpeg" alt="A Star" /> </p>
+
+
+	<h1><marquee>brighten up</marquee></h1>
+	<h2>Brighten Up helps clients harness the power of innovation to thrive on change. Our deep experience gives us a clear and confident vision to help people navigate the future.
+As the world’s leading independent, end-to- end IT services company, we are uniquely positioned to lead digital transformations — creating greater value for client, partners and shareholders, and presenting growth opportunities for our people. We are among the world’s best corporate citizens.
+We have 155,000 employees in more than 70 countries, serving some 6,000 clients. We tap into global talent, powerful next-generation IT solutions and extensive partner relationships to help clients transform digitally and seize opportunities.
+Our extensive partner network helps us drive collaboration and leverage technology independence. We have established more than 250 industry-leading global Partner Network relationships, including: Amazon Web Services, Dell, HP, IBM, Lenovo, Microsoft, Oracle, PwC, and ServiceNow.
+</h2>
+
+	<div id="nav">
+			<ul>
+				<li>
+					<h3><a href="file:///C:/Users/athar/Documents/about.html"style="color: black; text-decoration: none;">About</a></h3>
+
+				</li>
+				<li>
+					<h3><a href="file:///C:/Users/athar/Documents/products.html"style="color: black; text-decoration: none;">Products</a></h3>
+
+				</li>
+				<li>
+					<h3><a href="file:///C:/Users/athar/Documents/social.html"style="color: black; text-decoration: none;">Media</a></h3>
+
+				</li>
+
+			</ul>
+		</div>
+		<div class="footer" id="topfooter">
+			<small>&copy; 2017 BU 729 Canterbury St. Port Lake, ON B3E-3W8 Canada.</small>
+			<small>Phone (316) 328 985</small>
+		</div>
+
+
+	</body>
+
+</html>
